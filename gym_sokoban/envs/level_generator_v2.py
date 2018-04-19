@@ -222,7 +222,12 @@ class Room:
 				continue
 			
 			
-			
+	'''
+	    Reverse play requires you to create a set of boxes/player configs to be stored in a set.
+	    Question is when to stop?
+	    the max depth of the tree is to be known by permutations.
+	    it's DFS so stacks. An efficient stack of lists of box+1 element and a set. Add in stack only if its a new config.
+	'''
 			
 			
 			
